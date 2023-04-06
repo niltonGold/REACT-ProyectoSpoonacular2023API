@@ -26,7 +26,7 @@ export const RecipeNutritions = ( prop ) => {
         fetch( `https://api.spoonacular.com/recipes/${prop.id}/nutritionWidget.json?&apiKey=${apiKey}` )
             .then( response => response.json() )
                 .then( data => data.status !== undefined ? updateGoodNutritionstList(initialNutritions) : updateGoodNutritionstList(data) );
-    } );
+    }, [] );
     
 
     return (

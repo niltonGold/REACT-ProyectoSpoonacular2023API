@@ -18,7 +18,7 @@ export const RecipeBtn = ( prop ) => {
         fetch( `https://api.spoonacular.com/recipes/complexSearch?${prop.typeRecipeChild}=${prop.searchInApi_child}&apiKey=${apiKey}` )
             .then ( response => response.json() )
                 .then( data => updateRecipeList( data ) )
-    } );
+    }, [] );
 
     
     return (
