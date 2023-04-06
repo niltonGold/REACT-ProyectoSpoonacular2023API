@@ -1,0 +1,56 @@
+.header {
+    font-size: xx-large;
+    font-weight: bold;
+    color: blue;
+    border-bottom: solid 0.5rem;
+    border-color: rgb(3, 126, 9);
+    background-color: #bef1cb;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+
+.titulo{
+    padding: 1rem;
+}
+
+
+.logo_image{
+    width: 10%;
+    height: 5%;
+}
+
+
+.banner_image{
+    width: 30%;
+    height: 10%;
+}
+
+
+.tierra_image{
+    width: 10%;
+    height: 10%;
+    /* height: 40vmin; */
+    pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .tierra_image {
+    animation: tierra_image-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes tierra_image-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: local('./fonts/Roboto-Light.ttf') format('fft');
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+

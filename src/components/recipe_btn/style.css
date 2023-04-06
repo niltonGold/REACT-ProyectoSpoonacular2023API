@@ -1,0 +1,28 @@
+
+.btn_recipe:hover, .btn_recipe:focus, .btn_recipe:active{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.631);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+
+.btn_recipe{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(176, 190, 190);
+    border-radius: 20px;
+    padding: 0.2rem;
+}
+
+.img_btn{
+    width: 100px;
+    height: 100px;
+}
+
+.text_btn{
+    font-size: small;
+    font-weight: bold;
+}
+
+

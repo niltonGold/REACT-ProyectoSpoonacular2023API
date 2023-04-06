@@ -1,0 +1,27 @@
+
+
+.ingredients_table {
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+}
+
+
+.ingrediens_table_title {
+    width: 100%;
+    background-color: aqua;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fila {
+    width: 100%;
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
