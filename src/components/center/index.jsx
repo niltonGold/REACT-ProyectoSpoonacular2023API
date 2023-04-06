@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import '../center/style.css';
 import { RecipeBtn } from '../recipe_btn';
 import Chinese from '../../images/china.png';
@@ -80,8 +80,10 @@ const initialList = [
 
 export const Center = () => {
 
-  const [btns1, setBtns1] = useState( btnlist1 );
-  const [btns2, setBtns2] = useState( btnlist2 );
+  // const [btns1, setBtns1] = useState( btnlist1 );
+  const btns1 = btnlist1;
+  // const [btns2, setBtns2] = useState( btnlist2 );
+  const btns2 = btnlist2;
   const [list, updateList] = useState( initialList );
   const [showList, updateShowList] = useState( false );
   const [titleList, updateTitleList] = useState( '' );

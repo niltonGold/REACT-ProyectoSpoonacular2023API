@@ -36,7 +36,7 @@ export const RecipeIngredients = ( prop ) => {
       .then( response => response.json() )
         .then( data => data.status !== undefined ? updateIngredientList(initialListIngredients) : updateIngredientList(data) );
 
-  }, [] );
+  });
   
 
     return (

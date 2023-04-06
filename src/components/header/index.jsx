@@ -8,9 +8,9 @@ export const Header = () => {
     return (
         <>
             <div className='header' >
-                <img className='logo_image' src={logo} />
-                <img className='banner_image' src={banner} />
-                <img className='tierra_image' src={tierra} />
+                <img className='logo_image' src={logo} alt=""/>
+                <img className='banner_image' src={banner} alt=""/>
+                <img className='tierra_image' src={tierra} alt=""/>
             </div>
         </>
     )

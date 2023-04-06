@@ -18,14 +18,14 @@ export const RecipeBtn = ( prop ) => {
         fetch( `https://api.spoonacular.com/recipes/complexSearch?${prop.typeRecipeChild}=${prop.searchInApi_child}&apiKey=${apiKey}` )
             .then ( response => response.json() )
                 .then( data => updateRecipeList( data ) )
-    }, [] );
+    } );
 
     
     return (
         <>
             <button className='btn_recipe' onClick={handleClickBtn}>
                 <div>
-                    <img className='img_btn' src={prop.sourceimage} />
+                    <img className='img_btn' src={prop.sourceimage} alt=""/>
                 </div>
                 <div>
                     <p className='text_btn'>{prop.parrafo}</p>
